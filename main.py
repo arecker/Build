@@ -11,7 +11,7 @@ config_file.close()
 
 
 @app.route("/test/")
-def hello_world(request):
+def hello_world():
     return "Yep.  We are up."
 
 
